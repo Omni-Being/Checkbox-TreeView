@@ -1,0 +1,19 @@
+<div class="container">
+	<ngx-treeview 
+	[config]="config"
+	[items]="items"
+	(selectedChange)="onSelectedChange($event)"
+	(filterChange)="onFilterChange($event)">
+	</ngx-treeview>
+</div>
+
+
+<!-- <div class="container">
+	<ngx-dropdown-treeview
+  	[buttonClass]="btn"
+  	[config]="config"
+  	[items]="items"
+  	(selectedChange)="onSelectedChange($event)"
+  	(filterChange)="onFilterChange($event)"  [disabled]="diss">
+	</ngx-dropdown-treeview>
+</div> -->
